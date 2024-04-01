@@ -19,7 +19,7 @@ In cases where the user selects an expression other than option 11, the code plo
 the associated data to "answers.txt".
 
 In summary, this program contains three files: "Assignment.py" containing the code, "values.txt" containing the values of x, and "answers.txt" 
-containing the answers of each expression chosen by the user except option 11 which plots every expression.
+containing the answers of each expression chosen by the user.
 
 These are the documentation for the results of the program:
 
