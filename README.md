@@ -8,15 +8,15 @@ Next, the code reads numerical values from a file named "values.txt" which are 1
 A dictionary named expressions is then defined, containing a variety of predefined mathematical expressions. Each expression is associated 
 with a unique key which is 1-10 and includes both its formula and the expression itself.
 
-Upon execution, the code presents users with a menu displaying the available expressions along with their respective formulas. Users
-are prompted to input a choice corresponding to the desired expression.
+Upon execution, the code presents users with a menu displaying the available expressions along with their respective formulas. 
+Users are prompted to input a choice corresponding to the desired expression.
 
-Once the user makes a choice, the code proceeds to plot the graph of the selected expression. Additionally, it saves both the graphs 
-and corresponding answers of the chosen expression to a file named "answers.txt". This file will change every time the program is run 
-depending on which expression the user chooses.  
+Once the user makes a choice, the code proceeds to plot the graph of the selected expression. If the user opts for option 11, 
+the code iterates through all expressions, plotting each one individually. Additionally, it saves both the graphs and 
+corresponding numerical results to a file named "answers.txt".
 
-If the user opts for option 11, the code performs through all expressions, plotting each expression in the same graph. Furthermore, If 
-the user chooses 11, "answers.txt" won't contain anything.
+In cases where the user selects an expression other than option 11, the code plots a single graph for the chosen expression and saves 
+the associated data to "answers.txt".
 
 In summary, this program contains three files: "Assignment.py" containing the code, "values.txt" containing the values of x, and "answers.txt" 
 containing the answers of each expression chosen by the user except option 11 which plots every expression.
